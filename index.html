@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Akan Names Generator</title>
+</head>
+<body>
+      
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <!-- The Landing Page /  -->
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-4">Welcome to Akan Names Generator</h1>
+            <p class="lead">This is a web application that generates Akan name 
+                for you after inputting your date of birth. Akan names are derived 
+                from Ghanian culture. Frequently in Ghana, children are given their first 
+                name as a 'day name' which corresponds to the day in the week 
+                they were born.</p>
+            <p class="lead">Play and have fun!!!!</p>
+        </div>
+        <!-- Block to display Akan Name  -->
+        <div class="block">
+            <h6 id = "nameDisplay">Fill up the form below, click on generate 
+                name button  & check your Akan name here:👇</h6>
+            <p id="your-akan-name"></p>
+        </div>
+        <!-- forms to collect user input  -->
+        <form class="input-form" onsubmit="return generateAkanName()">
+            <label for="yearOfBirth">
+                YEAR:
+                <input id="yearInput" type="number" name="yearOfBirth" placeholder="YYYY" value="" required>
+            </label>
+            <label for="monthOfBirth">
+                MONTH:
+                <input id="monthInput" type="number" name="monthOfBirth" placeholder="MM" value="" required>
+            </label>
+            <label for="dayOfBirth">
+                DAY:
+                <input id="dayInput" type="number" name="dayOfBirth" placeholder="DD" value="" required>
+            </label>
+            <br>
+            <!-- choose gender inputs -->
+            <label for="gender">
+                <p>CHOOSE YOUR GENDER: </p>
+                MALE
+                <input id="maleInput" type="radio" name="gender" value="male" required>
+                FEMALE
+                <input id="femaleInput" type="radio" name="gender" value="female" required>
+            </label>
+            <br><br>
+            <input  class="bg-primary" id="generate-name" type="submit" name="" value="Generate name">
+            <br><br>
+        </form>
+        <!-- Reset form inputs button -->
+        <form class="reset-form">
+            <input class="reset-btn bg-danger" type="submit" value="Reset">
+        </form>
+    </div>
+    <div class="copyright">
+        <h3>Made by Antonia</h3>
+        <p>Akan Names Generator &copy;
+          <script>document.write(new Date().getFullYear());</script>. All Rights Reserved.</p>
+        <span class="caret scrollToTop"><i class="fas fa-caret-square-up"></i></span>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>

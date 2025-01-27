@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap ');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barrio-regular {
+    font-family: "Barrio", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    background-image: url(Greetings\ Portrait\ Kwanzaa\ Flyer\ in\ Cream\ Red\ Organic\ Illustration\ Style.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Barrio', cursive;
+    font-size: medium;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.block{
+    background-color: #AED4E6;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.9;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.jumbotron{
+    margin: 50px;
+    width: auto;;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.7;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.input-form{
+    text-align: center;
+    background-color: rgb(194, 192, 183);
+    padding: 10px;
+    margin: 10px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.9;
+    color: #5C1A1B;
+    font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
+}
+input[type=number] {
+    border: 4px solid #8C2155;
+    border-radius: 3px;  
+    background-color: #9da3a6;
+    color: white;  
+}
+input[type=radio] {
+    margin: 20px !important;
+}
+
+#generate-name{
+    width: 20%;
+    margin: 20px;
+    padding: 10px;
+    color: #534e4e;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.reset-form{
+    text-align: center;
+}
+.reset-btn{
+    width: 10%;
+    margin: 20px;
+    padding: 10px;
+    color: #575252;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#nameDisplay{
+    text-align: center;
+    justify-content: center;
+    color: #280404;
+    width: 50%;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+}
+#your-akan-name{
+    text-align: center;
+    justify-content: center;
+    color: #5C1A1B;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+}
+
+.copyright{
+    text-align: center;
+    color: #050000;
+    min-height: 30vh;
+    justify-content: center;
+    opacity: 0.9;
+    padding: 80px;
+}
