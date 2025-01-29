@@ -14,12 +14,7 @@ Select Gender.
 Output of Akan name.
 Installation and Set-up
 To use the app, open the Github Pages link provided below on the README. Follow the below steps to set up this application
-
-Step 1 : Clone this repository using https://github.com/ToniMoringa/AkanNameGenerator.git, or download a ZIP file of the code.
-Step 2 : The repository, if downloaded as a .zip file will need to be extracted on your preferred location and opened
-Step 3 : Open the index.html file to view the application on your preferred web browser and have fun!
-Known Bugs
-
+https://tonimoringa.github.io/Akan-name-generator/
 
 The web app was created using:
 HTML
